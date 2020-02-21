@@ -302,7 +302,7 @@ DROP TABLE cal purge ;
 
 CREATE TABLE cal
    (week  varchar2(1),
-    day   varchar2(2),
+    day   varchar2(4),
     num_day varchar2(2)) ;
 
 insert into cal values ('1','¿œ','1');
