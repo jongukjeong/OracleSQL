@@ -342,7 +342,7 @@ DROP TABLE gift purge ;
 
 create table gift
 ( gno  number ,
-  gname varchar2(15) ,
+  gname varchar2(40) ,
   g_start  number ,
   g_end  number );
 
